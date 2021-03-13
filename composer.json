@@ -1,0 +1,19 @@
+{
+    "name": "bee/bee",
+    "description": "bee",
+    "authors": [
+        {
+            "name": "Vit",
+            "email": "tesla.v3@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
